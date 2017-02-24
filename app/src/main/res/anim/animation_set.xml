@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+     android:shareInterpolator="false">
+    <alpha
+        android:detachWallpaper="true"
+        android:duration="1000"
+        android:fromAlpha="0.0"
+        android:repeatCount="3"
+        android:repeatMode="restart"
+        android:toAlpha="0.5"
+        android:zAdjustment="top"/>
+
+    <rotate
+        android:duration="1000"
+        android:fromDegrees="0"
+        android:pivotX="0"
+        android:pivotY="0"
+        android:toDegrees="180"/>
+
+    <!--
+        继承Animation属性说明：
+            detachWallpaper : 是否在壁纸上运行
+            duration : 动画持续时间，单位为毫秒
+            fillAfter : 动画结束时是否保持动画最后的状态  (放在set中才会生效)
+            fillBefore : 动画结束时是否还原到开始动画前的状态 (放在set中才会生效)
+            fillEnabled : 与fillBefore效果相同 (放在set中才会生效)
+            interpolator : 设定插值器 （指定的动画效果，譬如回弹等）
+            repeatCount : 重复次数
+            repeatMode : 重复类型有两个值，reverse表示倒序、restart表示重头播放
+            startOffset : 等待开始运行动画的时间，单位为毫秒
+            zAdjustment : 设置动画运行在Z轴上的位置（top/bottom/normal）,默认为normal
+
+        alpha属性说明：
+            fromAlpha ：动画开始时透明度 （0.0为全部透明，1.0为不透明）
+            toAlpha ：动画结束时透明度
+     -->
+</set>

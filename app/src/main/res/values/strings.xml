@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">AnimationDemo</string>
+
+    <!--Tween Animation-->
+    <string name="btn_tween_animation">Tween Animation</string>
+    <string name="btn_tween_animation_with_xml">Tween Animation With XML</string>
+    <string name="btn_alpha_with_xml">alpha with xml</string>
+    <string name="btn_scale_with_xml">scale with xml</string>
+    <string name="btn_translate_with_xml">translate with xml</string>
+    <string name="btn_rotate_with_xml">rotate with xml</string>
+    <string name="btn_animation_set_with_xml">animation set with xml</string>
+    <string name="btn_tween_animation_with_code">Tween Animation With Code</string>
+    <string name="btn_alpha_with_code">alpha with code</string>
+    <string name="btn_scale_with_code">scale with code</string>
+    <string name="btn_translate_with_code">translate with code</string>
+    <string name="btn_rotate_with_code">rotate with code</string>
+    <string name="btn_animation_set_with_code">animation set with code</string>
+
+    <!--Frame Animation-->
+    <string name="btn_frame_animation">Frame Animation</string>
+    <string name="btn_frame_animation_with_xml">Frame Animation With XML</string>
+    <string name="btn_start_with_xml">start with xml</string>
+    <string name="btn_stop_with_xml">stop with xml</string>
+    <string name="btn_frame_animation_with_code">Frame Animation With Code</string>
+    <string name="btn_start_with_code">start with code</string>
+    <string name="btn_stop_with_code">stop with code</string>
+
+    <!--Property Animation-->
+    <string name="btn_property_animation">Property Animation</string>
+    <string name="btn_object_animator">ObjectAnimator</string>
+    <string name="btn_object_animator_with_xml">ObjectAnimator with xml</string>
+    <string name="btn_object_animator_set_with_xml">ObjectAnimator set with xml</string>
+    <string name="btn_object_animator_with_code">ObjectAnimator with code</string>
+    <string name="btn_object_animator_set_with_code">ObjectAnimator set with AnimatorSet code</string>
+    <string name="btn_object_animator_set_with_pvh_code">ObjectAnimator set with PropertyValuesHolder code</string>
+    <string name="btn_value_animator">ValueAnimator</string>
+    <string name="btn_value_animator_with_xml">ValueAnimator with xml</string>
+    <string name="btn_value_animator_set_with_xml">ValueAnimator set with xml</string>
+    <string name="btn_value_animator_with_code">ValueAnimator with code</string>
+    <string name="btn_value_animator_set_with_code">ValueAnimator set with code</string>
+    <string name="btn_value_animator_set_with_pvh_code">ValueAnimator set with PropertyValuesHolder code</string>
+    <string name="btn_interpolator">Interpolator Test</string>
+    <string name="btn_custom_interpolator">自定义Interpolator</string>
+    <string name="btn_type_evaluator">TypeEvaluator Test</string>
+    <string name="btn_custom_type_evaluator">自定义TypeEvaluator</string>
+
+    <!--Material Design-->
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="1000"
+    android:fillAfter="false"
+    android:fromXScale="0.0"
+    android:fromYScale="0.0"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:toXScale="1.0"
+    android:toYScale="1.0"/>
+
+    <!--
+        继承Animation属性说明：
+            detachWallpaper : 是否在壁纸上运行
+            duration : 动画持续时间，单位为毫秒
+            fillAfter : 动画结束时是否保持动画最后的状态  (放在set中才会生效)
+            fillBefore : 动画结束时是否还原到开始动画前的状态 (放在set中才会生效)
+            fillEnabled : 与fillBefore效果相同 (放在set中才会生效)
+            interpolator : 设定插值器 （指定的动画效果，譬如回弹等）
+            repeatCount : 重复次数
+            repeatMode : 重复类型有两个值，reverse表示倒序、restart表示重头播放
+            startOffset : 等待开始运行动画的时间，单位为毫秒
+            zAdjustment : 设置动画运行在Z轴上的位置（top/bottom/normal）,默认为normal
+
+        scale属性说明：
+            fromXScale ：动画开始时X轴缩放比例 （0.0-收缩到看不见，1.0-正常不伸缩）
+            fromYScale ：动画开始时Y轴缩放比例
+            toXScale ：动画结束时X轴缩放比例
+            toYScale ：动画结束时Y轴缩放比例
+            pivotX ：缩放起点X轴坐标  （数值、百分数、百分数p，
+                                        譬如50表示以当前View左上角坐标加50px为初始点、
+                                        50%表示以当前View的左上角加上当前View宽高的50%做为初始点、
+                                        50%p表示以当前View的左上角加上父控件宽高的50%做为初始点）
+            pivotY ：缩放起点Y轴坐标
+    -->

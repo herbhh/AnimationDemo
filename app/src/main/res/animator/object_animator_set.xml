@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="2000"
+    android:ordering="sequentially"> <!--动画执行顺序 sequentially：顺序执行；together：同时执行。-->
+
+    <!--
+        平移 translationX，translationY, X，Y
+        缩放 scaleX，scaleY
+        旋转 rotationX， rotationY
+        透明度 alpha
+    -->
+    <objectAnimator
+        android:propertyName='translationX'
+        android:valueFrom='0'
+        android:valueTo='200'
+        android:valueType='floatType' />
+
+    <set android:ordering="together">
+        <objectAnimator
+            android:propertyName="scaleY"
+            android:valueFrom="1"
+            android:valueTo="2"
+            android:valueType="floatType"/>
+
+        <objectAnimator
+            android:propertyName="rotationX"
+            android:valueFrom="0"
+            android:valueTo="360"
+            android:valueType="floatType" />
+    </set>
+</set>
