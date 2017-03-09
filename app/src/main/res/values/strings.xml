@@ -45,5 +45,27 @@
     <string name="btn_custom_type_evaluator">自定义TypeEvaluator</string>
 
     <!--Material Design-->
+    <string name="btn_android_l_animation">Android L Animation</string>
+    <string name="btn_touch_feedback">Touch feedback(触摸反馈)</string>
+    <string name="btn_reveal_effect">Reveal effect(揭露效果)</string>
+    <string name="btn_activity_transitions">Activity transitions(Activity转换效果)</string>
+    <string name="btn_curved_motion">Curved motion(曲线运动)</string>
+    <string name="btn_view_state_changes">View state changes(视图状态改变)</string>
+    <string name="btn_animate_vector_drawables">Animate Vector Drawables(可绘矢量动画)</string>
 
+    <!--Material Design -> Touch feedback-->
+    <string name="btn_default_bg">默认的，不设置任何背景</string>
+    <string name="btn_item_bg">android:background="?android:attr/selectableItemBackground"，波纹有边界</string>
+    <string name="btn_item_borderless_bg">android:background="?android:attr/selectableItemBackgroundBorderless"，波纹超出边界</string>
+    <string name="btn_custom_ripple_bg">自定义波纹颜色和背景颜色</string>
+
+    <!--Material Design -> Reveal effect-->
+    <string name="btn_reveal_show">用揭露的方式显示</string>
+    <string name="btn_reveal_hide">用揭露的方式隐藏</string>
+
+    <!--Material Design -> Activity transitions-->
+    <string name="btn_common_transition_open">普通的Transition—打开Activity</string>
+    <string name="btn_common_transition_back">普通的Transition—关闭Activity</string>
+    <string name="layout_shared_transition_open">shared的Transition—打开Activity</string>
+    <string name="layout_shared_transition_back">shared的Transition—关闭Activity</string>
 </resources>

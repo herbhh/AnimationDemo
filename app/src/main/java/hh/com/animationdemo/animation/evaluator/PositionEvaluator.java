@@ -2,7 +2,7 @@ package hh.com.animationdemo.animation.evaluator;
 
 import android.animation.TypeEvaluator;
 
-import hh.com.animationdemo.MainActivity;
+import hh.com.animationdemo.view.acitivty.MainActivity;
 import hh.com.animationdemo.widget.PositionView;
 
 /**
@@ -15,7 +15,7 @@ import hh.com.animationdemo.widget.PositionView;
  */
 public class PositionEvaluator implements TypeEvaluator {
     // 创建PositionView对象，用来调用createPoint()方法创建当前PositionPoint对象
-    PositionView positionView = new PositionView(MainActivity.mContext, null);
+    PositionView positionView = new PositionView(MainActivity.context, null);
 
     @Override
     public Object evaluate(float fraction, Object startValue, Object endValue) {

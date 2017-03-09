@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android">
+    <changeClipBounds />
+    <changeImageTransform
+        android:duration="1000"
+        android:interpolator="@android:interpolator/accelerate_cubic"/>
+    <changeBounds />
+    <changeScroll />
+    <changeTransform />
+</transitionSet>
+
+<!--
+   transition里面的元素就是之前介绍过的，使用方法和以前的AnimationSet差不多，具体如何使用大家可以参考官方文档。
+   https://developer.android.google.cn/reference/android/transition/Transition.html
+->

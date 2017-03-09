@@ -7,35 +7,41 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="right"
+        android:gravity="center"
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/btn_tween_animation"
+            android:id="@+id/btn_default_bg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/btn_tween_animation"
+            android:text="@string/btn_default_bg"
             android:textAllCaps="false"/>
 
         <Button
-            android:id="@+id/btn_frame_animation"
+            android:id="@+id/btn_item_bg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/btn_frame_animation"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/btn_item_bg"
             android:textAllCaps="false"/>
 
         <Button
-            android:id="@+id/btn_property_animation"
+            android:id="@+id/btn_item_borderless_bg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/btn_property_animation"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:text="@string/btn_item_borderless_bg"
             android:textAllCaps="false"/>
 
         <Button
-            android:id="@+id/btn_android_l_animation"
+            android:id="@+id/btn_custom_ripple_bg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/btn_android_l_animation"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_ripple"
+            android:text="@string/btn_custom_ripple_bg"
             android:textAllCaps="false"/>
     </LinearLayout>
 </RelativeLayout>

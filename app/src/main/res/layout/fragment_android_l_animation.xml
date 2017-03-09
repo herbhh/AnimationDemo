@@ -11,31 +11,45 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/btn_tween_animation"
+            android:id="@+id/btn_touch_feedback"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/btn_tween_animation"
+            android:text="@string/btn_touch_feedback"
             android:textAllCaps="false"/>
 
         <Button
-            android:id="@+id/btn_frame_animation"
+            android:id="@+id/btn_reveal_effect"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/btn_frame_animation"
+            android:text="@string/btn_reveal_effect"
             android:textAllCaps="false"/>
 
         <Button
-            android:id="@+id/btn_property_animation"
+            android:id="@+id/btn_activity_transitions"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/btn_property_animation"
+            android:text="@string/btn_activity_transitions"
             android:textAllCaps="false"/>
 
         <Button
-            android:id="@+id/btn_android_l_animation"
+            android:id="@+id/btn_curved_motion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/btn_android_l_animation"
+            android:text="@string/btn_curved_motion"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btn_view_state_changes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_view_state_changes"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btn_animate_vector_drawables"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_animate_vector_drawables"
             android:textAllCaps="false"/>
     </LinearLayout>
 </RelativeLayout>

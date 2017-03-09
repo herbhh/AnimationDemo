@@ -1,8 +1,9 @@
-package hh.com.animationdemo.fragment;
+package hh.com.animationdemo.view.fragment;
 
 import android.animation.AnimatorInflater;
 import android.animation.AnimatorSet;
 import android.animation.PropertyValuesHolder;
+import android.animation.TimeAnimator;
 import android.animation.ValueAnimator;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -160,7 +161,7 @@ public class ValueAnimatorFragment extends BaseFragment implements View.OnClickL
                 break;
             case R.id.btn_value_animator_set_with_xml:
                 mTxtContent.setText(R.string.btn_value_animator_set_with_xml);
-                mValueAnimatorSetWithXml.start();
+//                mValueAnimatorSetWithXml.start();
                 break;
             case R.id.btn_value_animator_with_code:
                 mTxtContent.setText(R.string.btn_value_animator_with_code);

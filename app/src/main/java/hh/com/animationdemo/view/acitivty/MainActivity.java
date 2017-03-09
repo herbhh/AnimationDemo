@@ -1,4 +1,4 @@
-package hh.com.animationdemo;
+package hh.com.animationdemo.view.acitivty;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -7,11 +7,12 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 
-import hh.com.animationdemo.fragment.MainFragment;
+import hh.com.animationdemo.R;
+import hh.com.animationdemo.view.fragment.MainFragment;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static Context mContext;
+    public static Context context;
     private FragmentManager mFragmentManager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mFragmentManager = getSupportFragmentManager();
         startFragment(MainFragment.getInstance(), null);
-        mContext = this;
+        context = this;
     }
 
     public void startFragment(Fragment newFragment, Fragment oldFragment) {
@@ -32,4 +33,5 @@ public class MainActivity extends AppCompatActivity {
         transaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
         transaction.commit();
     }
+
 }

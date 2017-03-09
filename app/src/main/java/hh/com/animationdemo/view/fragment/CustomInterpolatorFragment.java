@@ -1,4 +1,4 @@
-package hh.com.animationdemo.fragment;
+package hh.com.animationdemo.view.fragment;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;

@@ -1,7 +1,8 @@
-package hh.com.animationdemo.fragment;
+package hh.com.animationdemo.view.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +11,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationSet;
 import android.view.animation.RotateAnimation;
 import android.view.animation.ScaleAnimation;
+import android.view.animation.Transformation;
 import android.view.animation.TranslateAnimation;
 import android.widget.Button;
 import android.widget.TextView;
@@ -30,7 +32,6 @@ public class TweenAnimationWithCodeFragment extends BaseFragment implements View
     private TranslateAnimation mTranslateAnimation;
     private RotateAnimation mRotateAnimation;
     private AnimationSet mSetAnimation;
-
     private static volatile TweenAnimationWithCodeFragment instance;
 
     public static TweenAnimationWithCodeFragment getInstance() {
@@ -119,5 +120,27 @@ public class TweenAnimationWithCodeFragment extends BaseFragment implements View
             default:
                 break;
         }
+    }
+
+    /**
+     * Test animation
+     */
+    public void Test() {
+        Animation a = new Animation() {
+
+            private long last = -1;
+            private int num = 0;
+            @Override
+            protected void applyTransformation(float interpolatedTime, Transformation t) {
+                long curr = System.currentTimeMillis();
+                long delta = curr - last;
+                last = curr;
+                Log.i("Animation", "=="+ num+ "==" +delta + "");
+                num ++ ;
+                t.getMatrix().postTranslate(10,10);
+            }
+        };
+        a.setDuration(2000);
+        mTxtContent.startAnimation(a);
     }
 }

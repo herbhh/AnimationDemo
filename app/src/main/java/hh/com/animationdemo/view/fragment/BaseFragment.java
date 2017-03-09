@@ -1,9 +1,10 @@
-package hh.com.animationdemo.fragment;
+package hh.com.animationdemo.view.fragment;
 
 import android.content.Context;
 import android.support.v4.app.Fragment;
 
-import hh.com.animationdemo.MainActivity;
+import hh.com.animationdemo.view.acitivty.MainActivity;
+
 
 public class BaseFragment extends Fragment {
 

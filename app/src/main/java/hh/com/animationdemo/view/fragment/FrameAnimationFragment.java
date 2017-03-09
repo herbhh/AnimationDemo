@@ -1,4 +1,4 @@
-package hh.com.animationdemo.fragment;
+package hh.com.animationdemo.view.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
